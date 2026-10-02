@@ -1,5 +1,5 @@
-# Render Blueprint: Dockerised FastAPI backend.
-# The frontend is deployed separately on Vercel (see docs/deployment.md).
+﻿# Render Blueprint: Dockerised FastAPI backend.
+# The frontend is deployed separately on Vercel.
 
 services:
   - type: web
