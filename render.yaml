@@ -1,6 +1,5 @@
-# Render Blueprint: managed PostgreSQL + Dockerised FastAPI backend.
+# Render Blueprint: Dockerised FastAPI backend.
 # The frontend is deployed separately on Vercel (see docs/deployment.md).
-
 
 services:
   - type: web
@@ -10,7 +9,8 @@ services:
     dockerfilePath: ./Dockerfile
     plan: free
     healthCheckPath: /api/health
-        envVars:
+
+    envVars:
       - key: ENVIRONMENT
         value: production
 
@@ -21,14 +21,19 @@ services:
         generateValue: true
 
       - key: CORS_ORIGINS
-        sync: false # e.g. https://your-app.vercel.app
+        sync: false
+
       - key: AI_PROVIDER
         value: demo
+
       - key: AI_API_KEY
         sync: false
+
       - key: AI_MODEL
         value: claude-opus-5-5
+
       - key: SEED_EMISSION_FACTORS
         value: "true"
+
       - key: SEED_DEMO_DATA
         value: "true"
