@@ -1,10 +1,6 @@
 # Render Blueprint: managed PostgreSQL + Dockerised FastAPI backend.
 # The frontend is deployed separately on Vercel (see docs/deployment.md).
-databases:
-  - name: carbon-footprint-navigator-db
-    plan: free
-    databaseName: cfn
-    user: cfn
+
 
 services:
   - type: web
@@ -18,9 +14,8 @@ services:
       - key: ENVIRONMENT
         value: production
       - key: DATABASE_URL
-        fromDatabase:
-          name: carbon-footprint-navigator-db
-          property: connectionString
+        - key: DATABASE_URL
+  sync: false
       - key: JWT_SECRET
         generateValue: true
       - key: CORS_ORIGINS
