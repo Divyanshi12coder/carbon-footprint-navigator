@@ -323,7 +323,7 @@ carbon-footprint-navigator/
 
 ## Author
 
-**Your name** — add your GitHub, LinkedIn and portfolio links here.
+**Divyanshi** — 
 
 Photography: Wikimedia Commons contributors under CC0 / CC BY / CC BY-SA / public domain — credits on the in-app Methodology page.
 Licensed under the [MIT License](LICENSE).
