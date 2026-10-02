@@ -1,0 +1,72 @@
+iata,name,city,country,lat,lon
+LHR,Heathrow,London,GB,51.4700,-0.4543
+LGW,Gatwick,London,GB,51.1537,-0.1821
+MAN,Manchester,Manchester,GB,53.3537,-2.2750
+EDI,Edinburgh,Edinburgh,GB,55.9500,-3.3725
+DUB,Dublin,Dublin,IE,53.4213,-6.2701
+CDG,Charles de Gaulle,Paris,FR,49.0097,2.5479
+ORY,Orly,Paris,FR,48.7262,2.3652
+NCE,Nice Cote d'Azur,Nice,FR,43.6584,7.2159
+AMS,Schiphol,Amsterdam,NL,52.3105,4.7683
+FRA,Frankfurt,Frankfurt,DE,50.0379,8.5622
+MUC,Munich,Munich,DE,48.3537,11.7750
+BER,Berlin Brandenburg,Berlin,DE,52.3667,13.5033
+MAD,Adolfo Suarez Madrid-Barajas,Madrid,ES,40.4983,-3.5676
+BCN,Barcelona El Prat,Barcelona,ES,41.2974,2.0833
+FCO,Fiumicino,Rome,IT,41.8003,12.2389
+MXP,Malpensa,Milan,IT,45.6301,8.7231
+ZRH,Zurich,Zurich,CH,47.4582,8.5555
+VIE,Vienna,Vienna,AT,48.1103,16.5697
+CPH,Copenhagen,Copenhagen,DK,55.6180,12.6508
+ARN,Arlanda,Stockholm,SE,59.6498,17.9238
+OSL,Gardermoen,Oslo,NO,60.1976,11.1004
+HEL,Helsinki-Vantaa,Helsinki,FI,60.3172,24.9633
+LIS,Humberto Delgado,Lisbon,PT,38.7742,-9.1342
+ATH,Athens,Athens,GR,37.9364,23.9445
+IST,Istanbul,Istanbul,TR,41.2753,28.7519
+DXB,Dubai International,Dubai,AE,25.2532,55.3657
+DOH,Hamad International,Doha,QA,25.2731,51.6081
+JFK,John F. Kennedy,New York,US,40.6413,-73.7781
+EWR,Newark Liberty,Newark,US,40.6895,-74.1745
+BOS,Logan,Boston,US,42.3656,-71.0096
+ORD,O'Hare,Chicago,US,41.9742,-87.9073
+ATL,Hartsfield-Jackson,Atlanta,US,33.6407,-84.4277
+DFW,Dallas/Fort Worth,Dallas,US,32.8998,-97.0403
+DEN,Denver,Denver,US,39.8561,-104.6737
+LAX,Los Angeles,Los Angeles,US,33.9416,-118.4085
+SFO,San Francisco,San Francisco,US,37.6213,-122.3790
+SEA,Seattle-Tacoma,Seattle,US,47.4502,-122.3088
+MIA,Miami,Miami,US,25.7959,-80.2870
+IAD,Washington Dulles,Washington,US,38.9531,-77.4565
+YYZ,Toronto Pearson,Toronto,CA,43.6777,-79.6248
+YVR,Vancouver,Vancouver,CA,49.1967,-123.1815
+YUL,Montreal-Trudeau,Montreal,CA,45.4706,-73.7408
+MEX,Mexico City,Mexico City,MX,19.4361,-99.0719
+GRU,Guarulhos,Sao Paulo,BR,-23.4356,-46.4731
+GIG,Galeao,Rio de Janeiro,BR,-22.8090,-43.2506
+EZE,Ministro Pistarini,Buenos Aires,AR,-34.8222,-58.5358
+BOG,El Dorado,Bogota,CO,4.7016,-74.1469
+DEL,Indira Gandhi,Delhi,IN,28.5562,77.1000
+BOM,Chhatrapati Shivaji Maharaj,Mumbai,IN,19.0896,72.8656
+BLR,Kempegowda,Bengaluru,IN,13.1986,77.7066
+MAA,Chennai,Chennai,IN,12.9941,80.1709
+HYD,Rajiv Gandhi,Hyderabad,IN,17.2403,78.4294
+CCU,Netaji Subhas Chandra Bose,Kolkata,IN,22.6547,88.4467
+SIN,Changi,Singapore,SG,1.3644,103.9915
+HKG,Hong Kong,Hong Kong,HK,22.3080,113.9185
+PEK,Beijing Capital,Beijing,CN,40.0799,116.6031
+PVG,Pudong,Shanghai,CN,31.1443,121.8083
+NRT,Narita,Tokyo,JP,35.7720,140.3929
+HND,Haneda,Tokyo,JP,35.5494,139.7798
+KIX,Kansai,Osaka,JP,34.4320,135.2304
+ICN,Incheon,Seoul,KR,37.4602,126.4407
+BKK,Suvarnabhumi,Bangkok,TH,13.6900,100.7501
+KUL,Kuala Lumpur,Kuala Lumpur,MY,2.7456,101.7072
+SYD,Kingsford Smith,Sydney,AU,-33.9399,151.1753
+MEL,Melbourne,Melbourne,AU,-37.6690,144.8410
+BNE,Brisbane,Brisbane,AU,-27.3842,153.1175
+AKL,Auckland,Auckland,NZ,-37.0082,174.7850
+JNB,O. R. Tambo,Johannesburg,ZA,-26.1392,28.2460
+CPT,Cape Town,Cape Town,ZA,-33.9715,18.6021
+NBO,Jomo Kenyatta,Nairobi,KE,-1.3192,36.9278
+CAI,Cairo,Cairo,EG,30.1219,31.4056

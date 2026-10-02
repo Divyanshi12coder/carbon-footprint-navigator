@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Carbon Footprint Navigator — Measure, Understand, Reduce">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12372A"/>
+      <stop offset="0.55" stop-color="#047857"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#8BCF9B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8BCF9B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3FAE72"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glow)"/>
+  <!-- contour lines -->
+  <g fill="none" stroke="#DDF4E5" stroke-opacity="0.12" stroke-width="2">
+    <path d="M760 320c40-90 140-140 260-130s210-40 260-110"/>
+    <path d="M700 320c50-110 170-170 310-160s230-50 270-140"/>
+    <path d="M640 320c60-130 200-200 360-190s250-60 280-170"/>
+  </g>
+  <!-- trend line with forecast -->
+  <g transform="translate(860 120)">
+    <polyline points="0,110 50,96 100,104 150,80 200,88 250,62" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="250,62 300,54 350,40" fill="none" stroke="#8BCF9B" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+    <circle cx="150" cy="80" r="7" fill="#FFFFFF"/>
+    <circle cx="250" cy="62" r="7" fill="#8BCF9B"/>
+  </g>
+  <!-- logo -->
+  <g transform="translate(72 96)">
+    <rect width="96" height="96" rx="24" fill="url(#leaf)" stroke="#FFFFFF" stroke-opacity="0.25"/>
+    <path d="M27 63c0-21 15-36 42-36-1.5 25.5-15 40.5-36 40.5-3 0-4.5-1.5-6-4.5z" fill="#FFFFFF"/>
+    <path d="M33 66c7.5-12 16.5-19.5 27-25.5" stroke="#047857" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="196" y="150" font-family="'Plus Jakarta Sans','Segoe UI',Arial,sans-serif" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="1">CARBON FOOTPRINT NAVIGATOR</text>
+  <text x="198" y="200" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="26" font-weight="600" fill="#DDF4E5" letter-spacing="6">MEASURE  •  UNDERSTAND  •  REDUCE</text>
+  <text x="198" y="244" font-family="'Inter','Segoe UI',Arial,sans-serif" font-size="18" fill="#8BCF9B">Activity-based carbon accounting · ML forecasting &amp; anomaly detection · explainable recommendations</text>
+</svg>
